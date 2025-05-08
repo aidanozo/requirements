@@ -1,0 +1,7 @@
+pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+pip install transformers datasets nltk rouge-score bert-score google-generativeai requests
+
+pip install scikit-learn numpy pandas tqdm
+
+python -c "import nltk; nltk.download('punkt'); nltk.download('wordnet')"
